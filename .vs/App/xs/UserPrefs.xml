@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{08AF6291-57D1-464F-A2D9-85971CE3E615}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/file.csv">
+    <Files>
+      <File FileName="App/Program.cs" Line="18" Column="27" />
+      <File FileName="App/file.csv" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="App" expanded="True">
+            <Node name="App" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="file.csv" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

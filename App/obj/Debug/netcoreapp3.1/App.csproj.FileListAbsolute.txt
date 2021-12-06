@@ -1,0 +1,15 @@
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/App.deps.json
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/App.runtimeconfig.json
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/App.runtimeconfig.dev.json
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/App.dll
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/App.pdb
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.csproj.AssemblyReference.cache
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.AssemblyInfoInputs.cache
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.AssemblyInfo.cs
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.csproj.CoreCompileInputs.cache
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.dll
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.pdb
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.genruntimeconfig.cache
+/Users/pholosho/Projects/App/App/bin/Debug/netcoreapp3.1/CsvHelper.dll
+/Users/pholosho/Projects/App/App/obj/Debug/netcoreapp3.1/App.csproj.CopyComplete
