@@ -14,8 +14,8 @@ namespace App
         public string gender { get; set; }
     }
     class Match {
-        public string match;
-        public int percentage;
+        public string match { get; set; }
+        public int percentage { get; set; }
 
     }
     public class PercentageComparer : IComparer<Match>
