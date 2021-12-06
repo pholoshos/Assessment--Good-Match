@@ -77,8 +77,15 @@ namespace App
                 {
                     Match myMatch = new Match();
                     myMatch.match = a + " match " + b;
-                    myMatch.percentage = match(a, b);
-                    matches.Add(myMatch);
+                    try {
+                        myMatch.percentage = match(a, b);
+                        matches.Add(myMatch);
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                    
 
                 }
             }
