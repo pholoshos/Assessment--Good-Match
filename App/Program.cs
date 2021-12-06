@@ -82,14 +82,35 @@ namespace App
 
                 }
             }
-
+            String results = "";
             //prints out the matches starting with the highest to the lowest
             foreach(Match a in matches.Reverse())
             {
-                Console.WriteLine(a.match + " " + a.percentage + "% ");
+              
+                //when user score is 80% or above 
+                if (a.percentage >= 80) {
+                    results += a.match + " " + a.percentage + "%, good match \n";
+                }
+                else
+                {
+                    results += a.match + " " + a.percentage + "%  \n";
+                }
+
+                
             }
+            //prints out the results
+            Console.WriteLine(results);
+
+            try {
+                File.WriteAllText("/Users/pholosho/Projects/App/App/output.txt", results);
+            }catch(Exception e) {
+                Console.WriteLine(e);
+            }
+
+
             
-            
+
+
         }
 
         //method for calculating a match
@@ -102,6 +123,8 @@ namespace App
 
 
             string finalSentence = name1 + "matches" + name2;
+
+            //change the case of the sentence
             finalSentence = finalSentence.ToLower();
             for (int i = 0; i < finalSentence.Length; i++)
             {
