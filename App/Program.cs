@@ -76,7 +76,7 @@ namespace App
                 foreach(string b in femaleSet)
                 {
                     Match myMatch = new Match();
-                    myMatch.match = a + " match " + b;
+                    myMatch.match = a + " matches " + b;
                     try {
                         myMatch.percentage = match(a, b);
                         matches.Add(myMatch);
