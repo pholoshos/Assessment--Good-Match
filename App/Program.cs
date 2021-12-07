@@ -45,7 +45,7 @@ namespace App
                     var people = csv.GetRecords<Person>();
 
                     //groups data according to the gender provided
-                    //and removed any non alphabeticall charecters
+                    //and removes any non alphabeticall charecters
                     foreach(Person a in people)
                     {
                         string gender = a.gender.Replace(" ",string.Empty);
@@ -90,7 +90,11 @@ namespace App
                 }
             }
             String results = "";
+<<<<<<< HEAD
             //store the matches 
+=======
+            //stores the matches in a variable called results, from the highest % to the lowest
+>>>>>>> ee528d3642776a34b6c79adf5ddb9de90d17222b
             foreach(Match a in matches.Reverse())
             {
               
@@ -108,6 +112,7 @@ namespace App
             //prints out the results
             Console.WriteLine(results);
 
+            //writes a file called output.txt, used to store the results
             try {
                 File.WriteAllText("/Users/pholosho/Projects/App/App/output.txt", results);
             }catch(Exception e) {

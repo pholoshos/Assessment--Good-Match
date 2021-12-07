@@ -1,11 +1,10 @@
-﻿<Properties StartupConfiguration="{08AF6291-57D1-464F-A2D9-85971CE3E615}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{08AF6291-57D1-464F-A2D9-85971CE3E615}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.App PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/Program.cs">
     <Files>
-      <File FileName="App/Program.cs" Line="105" Column="75" />
-      <File FileName="App/file.csv" Line="2" Column="1" />
-      <File FileName="App/as.txt" Line="9" Column="1" />
-      <File FileName="App/output.txt" Line="1" Column="1" />
+      <File FileName="App/Program.cs" Line="200" Column="2" />
+      <File FileName="App/file.csv" Line="3" Column="6" />
+      <File FileName="App/output.txt" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +12,7 @@
           <Node name="App" expanded="True">
             <Node name="App" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="file.csv" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
