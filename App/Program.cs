@@ -90,11 +90,10 @@ namespace App
                 }
             }
             String results = "";
-<<<<<<< HEAD
+
             //store the matches 
-=======
             //stores the matches in a variable called results, from the highest % to the lowest
->>>>>>> ee528d3642776a34b6c79adf5ddb9de90d17222b
+
             foreach(Match a in matches.Reverse())
             {
               
