@@ -163,7 +163,7 @@ namespace App
                 viewed += finalSentence[i];
             }
 
-            string tempNumber; ;
+            string tempNumber;
             string holder;
             int counter = 0;
 
